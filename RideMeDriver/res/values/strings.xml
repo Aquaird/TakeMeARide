@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">载你咯</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup_step_one">SignupStepOneActivity</string>
+    <string name="title_activity_signup_step_two">SignupStepTwoActivity</string>
+    <string name="title_activity_wait_for_deal">WaitForDealActivity</string>
+    <string name="title_activity_show_deal">ShowDealActivity</string>
+    <string name="title_activity_order_info">OrderInfoActivity</string>
+    <string name="title_activity_going">GoingActivity</string>
+    <string name="title_activity_dice">DiceActivity</string>
+    <string name="title_activity_wait_he_pay">WaitHePayActivity</string>
+    <string name="title_activity_pay_result">PayResultActivity</string>
+    <string name="title_activity_photo_and_pay">PhotoAndPayActivity</string>
+    <string name="title_activity_photo_result">PhotoResultActivity</string>
+
+</resources>

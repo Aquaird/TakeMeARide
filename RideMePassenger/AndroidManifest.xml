@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ridemepassenger"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="4mq19eHcYWdcKYuewrDSIAl2" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".InputDestActivity"
+            android:label="@string/title_activity_input_dest" >
+        </activity>
+        <activity
+            android:name=".WaitHeComeActivity"
+            android:label="@string/title_activity_wait_he_come" >
+        </activity>
+        <activity
+            android:name=".GoingActivity"
+            android:label="@string/title_activity_going" >
+        </activity>
+        <activity
+            android:name=".DiceActivity"
+            android:label="@string/title_activity_dice" >
+        </activity>
+        <activity
+            android:name=".SeeAndPayActivity"
+            android:label="@string/title_activity_see_and_pay" >
+        </activity>
+        <activity
+            android:name=".PayResultActivity"
+            android:label="@string/title_activity_pay_result" >
+        </activity>
+        <activity
+            android:name=".GuessAndPayActivity"
+            android:label="@string/title_activity_guess_and_pay" >
+        </activity>
+        <activity
+            android:name=".PhotoAndPayActivity"
+            android:label="@string/title_activity_photo_and_pay" >
+        </activity>
+        <activity
+            android:name=".PhotoResultActivity"
+            android:label="@string/title_activity_photo_result" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+</manifest>
